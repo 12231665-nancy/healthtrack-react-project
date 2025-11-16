@@ -1,0 +1,160 @@
+.about-page {
+  padding: 40px 20px;
+  
+  margin: auto;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #f5f9ff;
+  min-height: 100px;
+}
+
+.about-page h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: #222;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.about-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  color: #555;
+  font-size: 25px;
+  line-height: 1.6;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+
+.about-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.about-card {
+  width: 300px;
+  background: #f5f9ff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.about-card h3 {
+  margin: 15px 0 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.about-card p {
+  padding: 0 15px 20px;
+  font-size: 20px;
+  color: #666;
+  font-family: "Trebuchet MS", sans-serif;
+
+}
+.about-team-section h3 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #222;
+  margin-top: 80px;
+  margin-top:-20px;
+}
+
+.about-team-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
+  padding-bottom: 15px;
+}
+
+.team-card {
+  width: 220px;
+  background: #f5f9ff;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  flex: 0 0 200px;
+}
+
+.team-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.team-card h4 {
+  margin-top: 12px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.job-title {
+  font-size: 14px;
+  color: #888;
+  margin: 5px 0 10px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.team-desc {
+  font-size: 14px;
+  padding: 0 12px;
+  color: #555;
+  line-height: 1.4;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.why-choose {
+  margin-top: 20px;
+  background: #f5faff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.why-choose h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.why-choose ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
+}
+
+.why-choose li {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+  font-family: "Trebuchet MS", sans-serif;
+}
+@media (max-width: 768px) {
+  .about-card, .team-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .about-page h2 {
+    font-size: 26px;
+  }
+
+  .about-intro {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,54 @@
+.contact{
+    text-align: center;
+    padding: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #f5f9ff;
+    width:100%;
+    min-height: 100vh;
+    
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 10px;
+}
+.contact-form input{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.contact-form textarea{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.contact-form button {
+  background-color: #3db897;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contact-information{
+    width: 300px;
+    text-align: left;
+}
+.contact-image{
+    width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.success{
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+

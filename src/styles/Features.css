@@ -1,0 +1,44 @@
+.features{
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f9ff;
+
+}
+.featuresTitle{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #0077b6;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.featuresList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.featuresItem{
+    background:#f5f9ff;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: transform 0.2s ease;
+}
+.featureImage {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+.featureItem h3 {
+  color: #023e8a;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.featureItem p {
+  color: #555;
+  font-size: 0.95rem;
+  font-family: "Trebuchet MS", sans-serif;
+
+}
