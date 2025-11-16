@@ -18,4 +18,5 @@ Users can view features, contact, and use the BMI calculator.
 ## Screenshots
 ![Image Alt](https://github.com/12231665-nancy/healthtrack-react-project/blob/main/home.png?raw=true)
 ![Image Alt](https://github.com/12231665-nancy/healthtrack-react-project/blob/main/about.png?raw=true)
+![Image Alt](https://github.com/12231665-nancy/healthtrack-react-project/blob/main/features.png?raw=true)
 
